@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100vw;
+}
+header{
+    background-color: #008690;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    left: 0%;
+    position: sticky;
+    z-index: 999;
+    color: #fff;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 1.5rem;
+}
+.home{
+
+    display: flex;
+}
+.inf{
+    width: 30%;
+    height: 100vh;
+    text-align: center;
+    padding: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.main{
+    width: 70%;
+}
+.area{
+    overflow: hidden;
+  }
+  .wrap{
+    width: 50%;
+    display: flex;
+  }
+  .item{
+    height: 100vh;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .box{
+    text-align: center;
+  }
+span{
+    display: block;
+    width: 300px;
+    height:300px;
+    margin: auto auto;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+  .item01{ background: #f1401d; }
+  .item02{ background: #f18d1d; }
+  .item03{ background: #f8b633; }
+  .item04{ background: #8cc561; }
+  .item05{ background: #56aa59; }
+  .item06{ background: #3d6b35; }
+footer{
+    background-color: #008690;
+    width: 100vw;
+    height: 30vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 1.5rem;
+}
+
+  @media screen and (max-width :767px){
+    .home{
+        display: block;
+    }
+    .inf{
+        width: 70%;
+        height: 70%;
+        margin: 0 auto;
+        position:static;
+    }
+    .main{
+        width: 100%;
+    }
+    span{
+        width: 150px;
+        height: 150px;
+    }
+  }
